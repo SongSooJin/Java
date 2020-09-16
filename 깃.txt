@@ -5,3 +5,10 @@
 깃 .git 삭제 - https://zeddios.tistory.com/151
 
 깃 오류 - https://m.blog.naver.com/PostView.nhn?blogId=angelkim88&logNo=221565694228&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+
+파일 수정한 파일 올릴려면 맨처음 폴더에서 브러쉬 실행
+(폴더 안에 있는 파일이라면)
+
+git add 안에있는폴더/추가파일이름 
+
