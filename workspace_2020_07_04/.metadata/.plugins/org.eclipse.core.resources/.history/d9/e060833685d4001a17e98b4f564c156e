@@ -1,0 +1,20 @@
+package w10;
+
+public class Ex14_TestThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TimerThread th = new TimerThread();
+		th.start();
+
+	}
+
+}
+
+
+class TimerThread extends Thread {
+	public void run() {
+		
+	}
+}

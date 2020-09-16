@@ -1,0 +1,21 @@
+package w9;
+
+class Point {
+	int x, y;
+	public Point(int x, int y) {
+		this.x = x; this.y = y;
+	}	
+}
+
+
+public class ObjectPropertyEx {
+
+	public static void main(String[] args) {
+		Point p = new Point(2,3);
+		System.out.println(p.getClass()); 	//class w9.Point
+		System.out.println(p.getClass().getName()); 	// w9.Point // 클래스 이름 
+		System.out.println(p.hashCode()); 					// 366712642 //  해시 코드 값
+		System.out.println(p.toString()); 						// 객체의 문자열
+	}
+
+}

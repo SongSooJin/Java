@@ -1,0 +1,19 @@
+package w9;
+
+public class SuperObject {
+	
+	protected String name;
+	public void paint() {
+		draw();
+	}
+	public void draw() {
+		System.out.println("Super Object");
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

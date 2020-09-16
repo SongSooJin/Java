@@ -1,0 +1,19 @@
+package w9;
+
+public class Ex10_´ÙÇü¼º {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+abstract class DObject {
+	public abstract void draw();
+}
+
+class Line extends DObject {
+	public void draw() {
+		 System.out.println("Line");
+	}
+}

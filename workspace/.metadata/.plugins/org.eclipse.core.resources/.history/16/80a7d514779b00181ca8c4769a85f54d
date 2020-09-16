@@ -1,0 +1,25 @@
+                                                   
+public class print0809 {
+	static int x = 2;
+	int y = 3;
+	
+	// static 키워드
+	// 프로그램 시작 전 메모르에 로드된다.
+	public static void main(String[] args) { 
+		System.out.println(add(x,3));
+		
+		print0809 p = new print0809();
+		// multiply 메소는 static키워드가 없으므로
+		// 메모리에 로드한 후 사용해야 한다.
+		System.out.println(p.multiply(y,3));
+	}
+	
+	private static int add(int i,int j) {
+		return i+j;
+		
+	}
+	public int multiply (int a,int b) {
+		return a*b;
+	}
+
+}

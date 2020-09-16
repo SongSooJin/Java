@@ -1,0 +1,16 @@
+package w10;
+
+class ThreadTimerEx {
+	static final long serialVersionUID=0L;
+}
+
+public class Ex15_ThreadTimerEx {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		new ThreadTimerEx();
+	}
+
+}

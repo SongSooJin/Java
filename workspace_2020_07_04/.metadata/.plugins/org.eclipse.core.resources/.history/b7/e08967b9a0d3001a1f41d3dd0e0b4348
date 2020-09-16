@@ -1,0 +1,20 @@
+package w9;
+
+public class Ex8_추상클래스 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JComponent p = new JComponent();
+
+	}
+
+}
+
+
+//추상 메소드 없는 추상 클래스
+abstract class JComponent { 
+	String name;
+	void load(String name ) {
+		this.name= name;
+	}
+}

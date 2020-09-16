@@ -1,0 +1,11 @@
+
+public class text0809 {
+		public static void main(String[] args) {
+		System.out.println(HelloWorld.name);
+		// HelloWorld 클래스를 열어서 그안에 name을 사용한다.
+		// HelloWorld 클래스가 갖고 있는 변수 name을 사용한다.
+		System.out.println(HelloWorld.color);
+		
+//		HelloWorld 클래스를 열어서 그안에 name을 사용한다.
+	}
+}

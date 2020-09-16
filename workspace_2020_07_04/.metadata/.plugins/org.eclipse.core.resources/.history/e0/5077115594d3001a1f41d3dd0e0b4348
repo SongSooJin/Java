@@ -1,0 +1,13 @@
+package packA;
+
+public class Person {
+
+}
+
+class Student extends Person {
+	
+}
+
+class Professor extends Person {
+	
+}

@@ -1,0 +1,25 @@
+package w10;
+
+import java.awt.Container;
+import java.awt.FlowLayout;
+
+class ThreadTimerEx {
+	static final long serialVersionUID=0L;
+	public ThreadTimerEx() {
+		Container c = getContentPane();
+		c.setLayout(new FlowLayout());
+		
+		setTitle("Thread를 상속받은 타이머 스레드 예제");
+	}
+}
+
+public class Ex15_ThreadTimerEx {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		new ThreadTimerEx();
+	}
+
+}

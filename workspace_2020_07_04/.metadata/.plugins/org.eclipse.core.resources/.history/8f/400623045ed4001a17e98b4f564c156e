@@ -1,0 +1,17 @@
+package w10;
+
+/*
+ * String 클래스와 달리 문자열 변경 가능
+ * 가변 크기의 버퍼를 가지고 있어 문자열 수정 가능
+ * 문자열의 수정이 많은 작업에 적합
+ 
+ */
+
+public class Ex4_StringBuffer클래스 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

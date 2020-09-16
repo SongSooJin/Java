@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="////자바는 범위에 관하여 엄격한 랭귀지이다." key="selection"/>
+		<list key="findhistory">
+			<item value="////자바는 범위에 관하여 엄격한 랭귀지이다."/>
+			<item value="public class Hello_0807 {"/>
+		</list>
+	</section>
+</section>

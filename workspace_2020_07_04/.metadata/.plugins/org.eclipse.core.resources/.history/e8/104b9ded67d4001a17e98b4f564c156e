@@ -1,0 +1,13 @@
+package w10;
+/*
+ * 정수를 0으로 나누는 경우에 "0으로 나눌 수 없습니다!"를 출력하는 프로그램을 작성하라.
+ */
+
+public class Ex10_예외처리_예제 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package w10;
+
+class TimerThread {
+	
+}
+
+public class Ex15_ThreadTimerEx {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		= new TimerThread(timerLabel);
+		setSize(250,150);
+
+	}
+
+}

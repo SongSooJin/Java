@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.DEFAULT"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="w6.Sinsang"/>
+<fullyQualifiedTypeName name="w6.Ex14_성적"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="w8.Sungjuk"/>
+<fullyQualifiedTypeName name="w8.Book"/>
+<fullyQualifiedTypeName name="q.B"/>
+<fullyQualifiedTypeName name="w8.StaticSample"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="w9.Student"/>
+<fullyQualifiedTypeName name="packA.Person"/>
+<fullyQualifiedTypeName name="packA.Professor"/>
+<fullyQualifiedTypeName name="w9.Circle"/>
+<fullyQualifiedTypeName name="packA.SuperObject"/>
+<fullyQualifiedTypeName name="w9.JComponent"/>
+<fullyQualifiedTypeName name="w9.RRect"/>
+<fullyQualifiedTypeName name="w9.CCircle"/>
+<fullyQualifiedTypeName name="w9.GoodCalc"/>
+<fullyQualifiedTypeName name="lib.Calculator"/>
+<fullyQualifiedTypeName name="w9.Point"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutionException"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.awt.Container"/>
+<fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+</qualifiedTypeNameHistroy>

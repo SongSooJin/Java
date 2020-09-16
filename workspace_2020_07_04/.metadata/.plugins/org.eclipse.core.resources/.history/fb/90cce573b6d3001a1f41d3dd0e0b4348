@@ -1,0 +1,10 @@
+package w9;
+
+public class Ex12_객체의비교와_equals메소드 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

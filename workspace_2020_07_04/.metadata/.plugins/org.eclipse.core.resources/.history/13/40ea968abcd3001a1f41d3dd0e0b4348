@@ -1,0 +1,31 @@
+package w9;
+
+public class Ex13_Wrapper객체의_활용 {
+
+	public static void main(String[] args) {
+	
+		// Wrapper 객체에 들어 있는 기본 타입 값 알아내기
+		Integer i = new Integer(10);
+		int ii = i.intValue();  // intValue() : Integer 객체에서 int형 값을 뽑아 내는 메소드
+		System.out.println("ii : "+ ii); // ii = 10
+		
+		Character c = new Character('c');
+		char cc = c.charValue(); 	// charValue() : character 객체에서 char형 값을 뽑아 내는 메소드	
+		System.out.println("cc : "+ cc); // cc = 'c' 
+		
+		Boolean b = new Boolean(true);
+		boolean bb = b.booleanValue(); 		// booleanValue() : boolean 객체에서 boolean형 값을 뽑아 내는 메소드		
+		System.out.println("bb : "+ bb); 	// bb = true
+
+		//문자열을 기본타입으로 
+		int i = Integer.parseInt("123"); // parseInt() : String형 객체에서 int형 값을 뽑아 내는 메소드
+		System.out.println("i : " + i);// i = 123
+		
+		boolean b = Boolean.parseBoolean("true"); 	
+		System.out.println("b : "+b);// b = true
+		
+		double d = Double.parseDouble("3.141592"); 	// d = 3.141592
+
+	}
+
+}

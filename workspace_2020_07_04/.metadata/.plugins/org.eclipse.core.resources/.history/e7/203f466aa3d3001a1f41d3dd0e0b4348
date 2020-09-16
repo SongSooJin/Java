@@ -1,0 +1,37 @@
+package w9;
+
+public class Ex10_´ÙÇü¼º {
+
+	public static void main(String[] args) {
+
+		LLine p = new LLine();
+		p.draw();
+		DObject d = new LLine();
+		
+	}
+
+}
+
+
+abstract class DObject {
+	public abstract void draw();
+}
+
+class LLine extends DObject {
+	public void draw() {
+		 System.out.println("Line");
+	}
+}
+
+class RRect extends DObject {
+	public void draw() {
+		 System.out.println("Rect");
+	}
+}
+
+class CCircle extends DObject {
+	public void draw() {
+		 System.out.println("Circle");
+	}
+}
+

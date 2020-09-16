@@ -1,0 +1,23 @@
+package w9;
+
+public class Ex13_Wrapper객체의_활용 {
+
+	public static void main(String[] args) {
+	
+		// Wrapper 객체에 들어 있는 기본 타입 값 알아내기
+		Integer i = new Integer(10);
+		int ii = i.intValue();  // intValue():Integer 객체에서 int형 값을 뽑아 내는 메소드
+		System.out.println("ii : "+ ii); // ii = 10
+		
+		Character c = new Character('c');
+		char cc = c.charValue(); 		// cc = 'c' //
+		System.out.println("cc : "+ cc);
+		
+		Boolean b = new Boolean(true);
+		boolean bb = b.booleanValue(); 	// bb = true
+		System.out.println("bb : "+ bb);
+
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package w10;
+
+public class Ex15_ThreadTimerEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class HelloWorld {
+	static String title = "Hello World";
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Cannot make a static reference to the non-static field title
+		// 
+		System.out.println(title);
+	}
+
+}

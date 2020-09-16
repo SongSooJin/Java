@@ -1,0 +1,12 @@
+package w10;
+
+public class Ex1_StringÈ°¿ë {
+
+	public static void main(String[] args) {
+		
+		String a = " xyz\t";
+		String b = a.trim();	 // b = "xyz". ºó Ä­°ú '\t' Á¦°ÅµÊ
+
+	}
+
+}

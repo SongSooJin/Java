@@ -1,0 +1,52 @@
+package w10;
+
+/*
+ * [1,45] 6개 + 보너스번호 1개
+ * [1,45] 중복이면 다시 1~45 실행
+ * 보너스 번호 1 개는 6개와 중복이면 안됌 
+ * 2 6 13 17 23 41, 보너스번호 32
+ * 
+ */
+
+public class Ex12_로또 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int lotto[]=new int[6];
+
+		for (int i=0; i<lotto.length; i++) {
+			lotto[i] = (int)(Math.random()*(45-1+1) + 1); // 난수 발생
+			for (int k=0;k<lotto.length;k++) {
+				for(int j=i+1;j<lotto.length;j++) {
+					if(lotto[k]>lotto[j]) {
+						int temp = lotto[k];
+						lotto[k] = lotto[j];
+						lotto[j] = temp;
+						if(lotto[k]==lotto[j]) {
+							lotto[i] = (int)(Math.random()*(45-1+1) + 1); // 난수 발생
+						}
+					}
+				}
+			}
+
+		}
+		
+		for (int i=0;i<lotto.length;i++) {
+			for(int j=i+1;j<lotto.length;j++) {
+				if(lotto[i]>lotto[j]) {
+					int temp = lotto[i];
+					lotto[i] = lotto[j];
+					lotto[j] = temp;
+				}
+			}
+		}
+
+		System.out.println("당첨번호는 : ");
+		for (int i=0;i<lotto.length;i++) {
+			System.out.printf("%3d\t",lotto[i]);
+		}
+		System.out.println();
+	}
+
+}

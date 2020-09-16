@@ -1,0 +1,27 @@
+package packA;
+
+class SuperObject {
+	protected String name;
+	public void paint() {
+		draw();
+	}
+	public void draw() {
+		System.out.println(name);
+	}
+}
+
+public class SubObject extends SuperObject {
+	protected String name;
+	public void draw() {
+		name = "Sub"; //자녀멤버변수
+		super.name = "Super"; //부모에게도 이름(값)을 주고싶다.
+		super.draw();
+		System.out.println(name);
+	}
+
+	public static void main(String[] args) {
+		SuperObject b = new SubObject(); //업캐스팅
+		b.paint();
+	}
+
+}

@@ -1,0 +1,13 @@
+package w9;
+
+public class EX14_스트링리터럴과_스트링생성자 {
+
+	public static void main(String[] args) {
+
+		String a = "Hello"; 
+		String b = "Java"; 
+		String c = "Hello";
+		Sting d = new String("Hello");
+	}
+
+}

@@ -1,0 +1,24 @@
+package w9;
+
+public class Ex9_추상클래스_상속 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+
+abstract class A { // 추상 클래스
+	abstract int add(int x, int y); // 추상 메소드
+}
+
+abstract class B extends A { // 추상 클래스 
+	void show() { System.out.println("B"); }
+}
+
+
+class C extends A { // 추상 클래스 구현. C는 정상 클래스
+	int add(int x, int y) { return x+y; } // 추상 메소드 구현. 오버라이딩
+	void show() { System.out.println("C"); }
+}

@@ -1,0 +1,18 @@
+package packA;
+
+public class Ex2_instanceof연산자 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Person p = new Professor();
+
+		if(p instanceof Person); 	// true
+		if(p instanceof Student); 	// false. Student를 상속받지 않기 때문
+		if(p instanceof Researcher);	// true
+		if(p instanceof Professor);// true
+
+
+	}
+
+}

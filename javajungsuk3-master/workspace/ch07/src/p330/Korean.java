@@ -1,0 +1,15 @@
+//package p330;
+//
+//public class Korean  {
+//	
+//	String food = "±Ëƒ°";
+//	public Korean() {
+//		super();
+//		System.out.println("Korean() called.");
+//	}
+//	
+//	public void play() {
+//		System.out.println("√„¿ª √·¥Ÿ.");
+//	}
+//	
+//}

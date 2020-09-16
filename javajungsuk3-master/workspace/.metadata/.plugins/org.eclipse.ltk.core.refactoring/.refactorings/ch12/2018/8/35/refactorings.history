@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;p670.java&apos; to &apos;p670.p670.java&apos;&#x0D;&#x0A;- Original project: &apos;ch12&apos;&#x0D;&#x0A;- Destination element: &apos;p670.p670.java&apos;&#x0D;&#x0A;- Original element: &apos;p670.p670.java&apos;" description="Copy compilation unit" destination="/src&lt;p670{p670.java" element1="/src&lt;p670{p670.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1535350542513" units="1" version="1.0"/>
+</session>
